@@ -1,0 +1,15 @@
+D:\GeekBrains\C-Sharp\Lesson1\homework1\bin\Debug\net6.0\homework1.exe
+D:\GeekBrains\C-Sharp\Lesson1\homework1\bin\Debug\net6.0\homework1.deps.json
+D:\GeekBrains\C-Sharp\Lesson1\homework1\bin\Debug\net6.0\homework1.runtimeconfig.json
+D:\GeekBrains\C-Sharp\Lesson1\homework1\bin\Debug\net6.0\homework1.dll
+D:\GeekBrains\C-Sharp\Lesson1\homework1\bin\Debug\net6.0\homework1.pdb
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.csproj.AssemblyReference.cache
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.AssemblyInfoInputs.cache
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.AssemblyInfo.cs
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.csproj.CoreCompileInputs.cache
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.dll
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\refint\homework1.dll
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.pdb
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\homework1.genruntimeconfig.cache
+D:\GeekBrains\C-Sharp\Lesson1\homework1\obj\Debug\net6.0\ref\homework1.dll
