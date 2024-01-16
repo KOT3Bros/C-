@@ -1,32 +1,26 @@
-﻿// Задайте массив из N случайных целых чисел (N вводится с клавиатуры).
-// Найдите количество чисел, которые оканчиваются на 1 и делятся нацело на 7.
-// Пример [1 5 11 21 81 4 0 91 2 3] => 2
+﻿// Задайте массив. Напишите программу, которая определяет, присутствует ли заданное число в массиве. Программа должна выдать ответ: Да/Нет.
+// Примеры
+// [1 3 4 19 3], 8 => Нет
+// [-4 3 4 1], 3 => Да
 
-int[] CreateArray(int size, int minRange, int maxRange)
+int[] array = { 11, 22, 33, 44, 55, 66, 77 };
+Console.Write("Введите число для поиска в массиве: ");
+int numberForSearch = Convert.ToInt32(Console.ReadLine());
+bool isFound = false;
+
+for (int i = 0; i < array.Length; i++)
 {
-    int[] array = new int[size];
-    for (int i = 0; i < array.Length; i++)
+    if (numberForSearch == array[i])
     {
-        array[i] = new Random().Next(minRange, maxRange + 1);
+        isFound = true;
+        break;
     }
-    return array;
 }
-
-int GetCount(int[] arr)
+if (isFound) // isFound == true
 {
-    int count = 0;
-    foreach (var number in arr)
-    {
-        if (number % 7 == 0 && number % 10 == 1)
-        {
-            count++;
-        }
-    }
-    return count;
+    Console.WriteLine("Да");
 }
-
-Console.Write("Введите размер массива: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int[] array = CreateArray(N, 0, 100);
-Console.WriteLine($"Массив: [ {string.Join("; ", array)} ]");
-Console.WriteLine($"Total: {GetCount(array)}");
+else
+{
+    Console.WriteLine("Нет");
+}

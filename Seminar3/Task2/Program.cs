@@ -1,36 +1,12 @@
-﻿// Заполните массив на N (вводится с консоли, не более 8) случайных целых чисел от 0 до 9.
-// Сформируйте целое число, которое будет состоять из цифр из массива. Старший разряд числа находится на 0-м индексе, младший – на последнем.
+﻿// Задайте массив из 10 элементов, заполненный числами из промежутка [-10, 10]. Замените отрицательные элементы на положительные, а положительные на отрицательные.
 // Пример
-// [1 3 2 4 2 3] => 132423
-// [2 3 1] => 231
+// [1 -5 6] => [-1 5 -6]
 
-int[] CreateArray(int size)
+int[] array = { 1, -2, 3, 4, 5, -1, -7, -9, 10, -5 };
+Console.WriteLine($"Массив ДО: [ {string.Join("; ", array)} ]");
+for (int i = 0; i < array.Length; i++)
 {
-    int[] array = new int[size];
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(0, 10);
-    }
-    return array;
+    array[i] *= -1; // array[i] = array[i] * -1;
+    // Console.Write(array[i] + "\t");
 }
-
-int ConvertArrayToInt(int[] array)
-{
-    int result = 0;
-    for (int i = 0, j = array.Length - 1; i < array.Length; i++, j--)
-    {
-        result = result + array[i] * (int)Math.Pow(10, j);
-    }
-    return result;
-}
-
-Console.Write("Введите размер массива: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int[] array = CreateArray(N);
-if (array[0] == 0 || N > 8)
-{
-    Console.WriteLine("Размер массива больше 8 элементов или первый элемент равен 0");
-    return;
-}
-Console.WriteLine($"Массив: [ {string.Join("; ", array)} ]");
-Console.WriteLine($"Число: {ConvertArrayToInt(array)}");
+Console.WriteLine($"Массив ПОСЛЕ: [ {string.Join("; ", array)} ]");
