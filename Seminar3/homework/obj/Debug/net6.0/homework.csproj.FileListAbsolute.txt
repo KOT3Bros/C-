@@ -1,0 +1,15 @@
+D:\GeekBrains\C-Sharp\Seminar3\homework\bin\Debug\net6.0\homework.exe
+D:\GeekBrains\C-Sharp\Seminar3\homework\bin\Debug\net6.0\homework.deps.json
+D:\GeekBrains\C-Sharp\Seminar3\homework\bin\Debug\net6.0\homework.runtimeconfig.json
+D:\GeekBrains\C-Sharp\Seminar3\homework\bin\Debug\net6.0\homework.dll
+D:\GeekBrains\C-Sharp\Seminar3\homework\bin\Debug\net6.0\homework.pdb
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.csproj.AssemblyReference.cache
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.AssemblyInfoInputs.cache
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.AssemblyInfo.cs
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.csproj.CoreCompileInputs.cache
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.dll
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\refint\homework.dll
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.pdb
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\homework.genruntimeconfig.cache
+D:\GeekBrains\C-Sharp\Seminar3\homework\obj\Debug\net6.0\ref\homework.dll
